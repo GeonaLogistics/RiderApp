@@ -1,0 +1,35 @@
+{
+  "name": "expressagentlog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.19.0",
+    "@react-native-picker/picker": "github:react-native-picker/picker",
+    "axios": "^1.4.0",
+    "expo-app-loading": "^2.1.1",
+    "expo-linear-gradient": "~12.1.2",
+    "expo-location": "^16.0.0",
+    "expo-notifications": "^0.20.1",
+    "expo-permissions": "^14.2.1",
+    "expo-task-manager": "^11.3.0",
+    "native-base": "^3.4.28",
+    "react-native-animatable": "^1.3.3",
+    "react-native-async-storage": "^0.0.1",
+    "react-native-confirmation-code-input": "^1.0.4",
+    "react-native-google-places-autocomplete": "^2.5.1",
+    "react-native-loading-spinner-overlay": "^3.0.1",
+    "react-native-maps": "1.3.2",
+    "react-native-modal": "^13.0.1",
+    "react-native-picker": "^4.3.7",
+    "react-native-swiper": "^1.6.0",
+    "react-navigation": "^4.4.4",
+    "react-swiper": "^0.1.5",
+    "sentry-expo": "~6.2.0"
+  }
+}

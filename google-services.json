@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "81033411349",
+    "project_id": "geona-d1876",
+    "storage_bucket": "geona-d1876.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:81033411349:android:dfd798fa0e9c1371dac71c",
+        "android_client_info": {
+          "package_name": "com.Logistics.app.geonaagent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "81033411349-3arkhd968ja9evueacghqsnj6m0vm8hg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAb6o-o9mm8bwMBU0Q7PRMEQ0oOvNzmyZY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "81033411349-3arkhd968ja9evueacghqsnj6m0vm8hg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

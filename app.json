@@ -1,0 +1,73 @@
+{
+  "expo": {
+    "plugins": [
+      "sentry-expo"
+    ],
+    "name": "Geona Agent",
+    "slug": "Geona",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "android": {
+      "versionCode": 1,
+      "package": "com.Logistics.app.geonaagent",
+      "googleServicesFile": "./google-services.json",
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "WRITE_EXTERNAL_STORAGE",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_BACKGROUND_LOCATION"
+      ],
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCw54WeLp5ojmGmBNZVvk0IixkPNCOCCjE"
+        }
+      }
+    },
+    "version": "1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "hooks": {
+      "postPublish": [
+        {
+          "file": "sentry-expo/upload-sourcemaps",
+          "config": {
+            "organization": "geona",
+            "project": "geona",
+            "authToken": "22822b9aaab111ecab9b962cd55e4e8e"
+          }
+        }
+      ]
+    },
+    "ios": {
+      "bundleIdentifier": "com.Logistics.app.geonaagent",
+      "buildNumber": "0.0.8",
+      "supportsTablet": true,
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "location",
+          "fetch"
+        ]
+      }
+    },
+    "description": "Geona Logistics. Logistics made more simple.",
+    "extra": {
+      "eas": {
+        "projectId": "e8be9d2c-eeca-48c1-898c-f3108da65ee9"
+      }
+    }
+  }
+}

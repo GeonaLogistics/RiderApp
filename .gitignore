@@ -1,0 +1,20 @@
+# Phpstorm
+.idea
+
+# Node
+node_modules
+*.log
+.nvm
+package-lock.json
+
+# OS X
+.DS_Store
+__MACOSX
+
+# Visual studio
+.vscode
+.vs
+
+*.jks
+*.PNG
+report.*.json
